@@ -1,8 +1,9 @@
-/* Task 2: Basic colors and utility classes */
-body {
-    color: #161616;
+/* Task 2: Adding smooth scrolling, base colors and utility classes */
+html {
+    scroll-behavior: smooth;
 }
 
+body,
 a {
     color: #161616;
 }
@@ -11,10 +12,7 @@ a {
     display: none;
 }
 
-.card-category {
-    color: #D73953;
-}
-
+.card-category,
 .section-tagline {
     color: #D73953;
 }
